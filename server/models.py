@@ -2,6 +2,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import MetaData
 
 # contains definitions of tables and associated schema constructs
+# read more about Metadata using the link at the bottom of the page
 metadata = MetaData()
 
 # create the Flask SQLAlchemy extension
